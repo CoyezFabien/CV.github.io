@@ -125,20 +125,20 @@ h1
 /* espace css Diplome */
 .cadreTitre
 {
-    background-color:#BF8C60;/*couleur du rectangle  autour du titre "diplome*/
-    padding: 20px; /*permet d'avoir ce rectangle autour de diplome*/
-    margin-bottom: 50px;/*l'espace qui as entre le cadre du 1er diplome en bas*/
+    background-color:#BF8C60;
+    padding: 20px; 
+    margin-bottom: 50px;
     margin-top: 50px;
     border-radius: 10px;
     font-family: "Forte";
     font-size: 1.5em;
 }
 .diplomesTitre{
-    background-color: #ffffff;/*couleur arrière du titre*/
-    color:#16498C;/*couleur de la typo*/
-    border-radius: 10px;/*les bords arrondis de la bordure autour du titre*/
-    padding: 5px;/*permet d'avoir cet espace entre le blanc et le bord du cadre*/
-    text-align: center;/*permet de centrer le text au milieux */
+    background-color: #ffffff;
+    color:#16498C;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
 }
 .grossirTitre
 {
@@ -169,8 +169,8 @@ h1
 }
 .container1Diplome
 {
-    text-align: center;/*permet de centrer le texte au milieux*/
-    border: 3px #16498C solid;/*bordure de 3px du couleur bleu type solid*/
+    text-align: center;
+    border: 3px #16498C solid;
     grid-column: 3;
     grid-row: 1;
     width: 500px;
@@ -483,13 +483,6 @@ h1
 
 /* espace css Competence */
 
-/* .cadreDiplome
-{
-    background-color:#BF8C60;
-    padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-} */
 .titrediplômes
 {
     background-color: #ffffff;
@@ -607,13 +600,7 @@ h1
 }
 /* espace css Langues */
 
-/* .cadreLangue
-{
-    background-color:#BF8C60;
-    padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-} */
+
 .titreLangue
 {
     background-color: #ffffff;
@@ -661,13 +648,7 @@ h1
 
 /* espace css Comment me contacter */
 
-/* .cadreContact
-{
-    background-color:#BF8C60;
-    padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-} */
+
 .titreContact
 {
     background-color: #ffffff;
@@ -853,10 +834,10 @@ h1
 }
     /* espace css Diplome */
 #containerDiplome{
-    display: grid;/*display: grid permet de dire que l'on va faire de la grid*/
-    grid-template-columns: 210px 210px;/*grid template colums permet de dire combien de colonne allons mettre ici 2 colonne de 210 px pourquoi car le points de rupture est a 480px donc 210 *2 = 420 et permet d'avoir de la marge sur les cote*/
-    grid-template-rows:repeat(5, 1fr);/* permet de dire combien de ligne allons mettre repeat(5,1fr); est une facon plus courte de marquer 1fr 1fr 1fr 1fr 1fr*/
-    grid-gap: 5px;/*grid-gap permet de definir l'espace entre les colones, lignes...*/
+    display: grid;
+    grid-template-columns: 210px 210px;
+    grid-template-rows:repeat(5, 1fr);
+    grid-gap: 5px;
 }
 .grossirTitre
 {
@@ -864,9 +845,9 @@ h1
 }
 .cadreTitre
 {
-    background-color:#BF8C60;/*couleur du rectangle  autour du titre "diplome*/
-    padding: 20px; /*permet d'avoir ce rectangle autour de diplome*/
-    margin-bottom: 50px;/*l'espace qui aas entre le cadre le cadre du 1er diplome en bas*/
+    background-color:#BF8C60;
+    padding: 20px; 
+    margin-bottom: 50px;
     margin-top: 50px;
     border-radius: 10px;
     font-family: "Forte";
